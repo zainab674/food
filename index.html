@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FOODIE</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="nav">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="logoo.png" alt="Logo" width="40" height="34" class="d-inline-block align-text-top">
+          FOODIE</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">FOODIE</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#explore" target="_blank">Explore</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="register.html" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Register here
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#login" target="_blank">Login</a></li>
+                  <li><a class="dropdown-item" href="#signup" target="_blank">Sign Up</a></li>
+
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div>
+    <ul class="cb-slideshow">
+      <li>
+        <span><img src="home1.jpg" alt="" width="100%" height="100%"></span>
+        <div>
+          <h5> Hunger is a good cook</h5>
+        </div>
+      </li>
+      <li>
+        <span><img src="home2.jpg" alt="" width="100%" height="100%"></span>
+        <div>
+          <h5> I’m soy into you</h5>
+        </div>
+      </li>
+      <li>
+        <span><img src="home3.jpg" alt="" width="100%" height="100%"></span>
+        <div>
+          <h5> Let’s gain some weight!</h5>
+        </div>
+      </li>
+      <li>
+        <span><img src="home4.jpg" alt="" width="100%" height="100%"></span>
+        <div>
+          <h5>Bliss on a plate.</h5>
+        </div>
+      </li>
+      <li>
+        <span><img src="home5.jpg" alt="" width="100%" height="100%"></span>
+        <div>
+          <h5>First, we eat</h5>
+        </div>
+      </li>
+      <li>
+        <span><img src="home6.jpg" alt="" width="100%" height="100%"></span>
+        <div>
+          <h5>Explore Now</h5>
+        </div>
+      </li>
+
+
+    </ul>
+  </div>
+  <div class="options">
+
+    <div class="box" id="explore">
+      <div class="card" style="--clr: #009688">
+        <div class="img-box">
+          <img src="starter.jpg">
+        </div>
+        <div class="content">
+          <h2>Starter</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Architecto, hic? Magnam eum error saepe doloribus corrupti
+            repellat quisquam alias doloremque!
+          </p>
+          <a href="">Order Me</a>
+        </div>
+      </div>
+      <div class="card" style="--clr: #FF3E7F">
+        <div class="img-box">
+          <img src="chinese.jpg">
+        </div>
+        <div class="content">
+          <h2>Chinese</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Architecto, hic? Magnam eum error saepe doloribus corrupti
+            repellat quisquam alias doloremque!
+          </p>
+          <a href="">Order Me</a>
+        </div>
+      </div>
+      <div class="card" style="--clr: #03A9F4">
+        <div class="img-box">
+          <img src="indian.jpg">
+        </div>
+        <div class="content">
+          <h2>Indian</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Architecto, hic? Magnam eum error saepe doloribus corrupti
+            repellat quisquam alias doloremque!
+          </p>
+          <a href="">Order Me</a>
+        </div>
+      </div>
+      <div class="card" style="--clr: #009688">
+        <div class="img-box">
+          <img src="italian.jpg">
+        </div>
+        <div class="content">
+          <h2>Italian</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Architecto, hic? Magnam eum error saepe doloribus corrupti
+            repellat quisquam alias doloremque!
+          </p>
+          <a href="">Order Me</a>
+        </div>
+      </div>
+      <div class="card" style="--clr: #FF3E7F">
+        <div class="img-box">
+          <img src="drinks.jpg">
+        </div>
+        <div class="content">
+          <h2>Drinks</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Architecto, hic? Magnam eum error saepe doloribus corrupti
+            repellat quisquam alias doloremque!
+          </p>
+          <a href="">Order Me</a>
+        </div>
+      </div>
+      <div class="card" style="--clr: #03A9F4">
+        <div class="img-box">
+          <img src="dessert.jpg">
+        </div>
+        <div class="content">
+          <h2>Dessert</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Architecto, hic? Magnam eum error saepe doloribus corrupti
+            repellat quisquam alias doloremque!
+          </p>
+          <a href="">Order Me</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  <section id="about">
+    <div class = "image">
+       <img src="avator.png">
+    </div>
+  
+    <div class = "content1">
+        <h2>About Us</h2>
+        <span><!-- line here --></span>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis aspernatur voluptas inventore ab voluptates nostrum minus illo laborum harum laudantium earum ut, temporibus fugiat sequi explicabo facilis unde quos corporis!</p>
+        <ul class = "links">
+            <li><a href = "#">work</a></li>
+            <div class = "vertical-line"></div>
+            <li><a href = "#">service</a></li>
+            <div class = "vertical-line"></div>
+            <li><a href = "#">contact</a></li>
+        </ul>
+        <ul class = "icons">
+            <li>
+                <i class = "fa fa-twitter"></i>
+            </li>
+            <li>
+                <i class = "fa fa-facebook"></i>
+            </li>
+            <li>
+                <i class = "fa fa-github"></i>
+            </li>
+            <li>
+                <i class = "fa fa-pinterest"></i>
+            </li>
+        </ul>
+    </div>
+  </section><br><br>
+ 
+    
+                
+            
+    <script>
+        document.querySelector('.img__btn').addEventListener('click', function() {
+            document.querySelector('.cont').classList.toggle('s--signup');
+        });
+    </script>
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+
+</html>
